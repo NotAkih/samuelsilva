@@ -1,0 +1,27 @@
+{
+   "author": "Samuel Silva",
+   "background": {
+      "persistent": true,
+      "scripts": [ "src/bg/background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "js/jquery/jquery.min.js", "src/inject/samuelsilva.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "Chrome extension to override all images in a page by Samuel Silva.",
+   "homepage_url": "https://github.com/codeJaum/samuelsilva",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "Samuel Silva",
+   "page_action": {
+      "default_icon": "icons/icon19.png"
+   },
+   "permissions": [ "contentSettings" ],
+   "short_name": "Samuel Silva",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

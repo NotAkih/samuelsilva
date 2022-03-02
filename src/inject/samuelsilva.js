@@ -65,5 +65,49 @@
 
     //Set global variable
     $.nCage = self;
+	
+    var nome = Element.textContent = "Samuel Silva ";
+	
+	//Change all text to the var "nome"
+	$('address').text(nome);
+	$('article').text(nome);
+	$('aside').text(nome);
+	$('footer').text(nome);
+	$('header').text(nome);
+	$('h1').text(nome);
+	$('h2').text(nome);
+	$('h3').text(nome);
+	$('h4').text(nome);
+	$('h5').text(nome);
+	$('h6').text(nome);
+	$('main').text(nome);
+	$('nav').text(nome);
+	$('section').text(nome);
+	$('hr').text(nome);
+	$('li').text(nome);
+	$('ol').text(nome);
+	$('p').text(nome);
+	$('pre').text(nome);
+	$('ul').text(nome);
+	$('abbr').text(nome);
+	$('em').text(nome);
+	$('i').text(nome);
+	$('mark').text(nome);
+	$('span').text(nome);
+	$('strong').text(nome);
+	$('label').text(nome);
+	$('input').text(nome);
+	$('legend').text(nome);
+	$('option').text(nome);
+	$('cite').text(nome);
+	$('select').text(nome);
+	$('details').text(nome);
+	$('fl').text(nome);
+	$('nobr').text(nome);
+	$('q').text(nome);
+    
+	if ($('a').attr('img', '/Samuel.jpg')) {
+        $('a').text(nome).innerText().attr('href', 'https://www.youtube.com/watch?v=sSQH1Hin9-I');
+    }
 
 })(jQuery);
